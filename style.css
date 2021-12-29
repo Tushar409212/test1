@@ -1,0 +1,95 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/bg.jpg');
+    font-family: 'Pushster', cursive;
+}
+.left{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+display: inline-block;
+/* border: 2px solid red; */
+}
+.left img{height: 55px;
+    width: 80px;
+    filter: invert(100);
+}
+.left div{
+    line-height: 12px;
+    font-size: 15px;
+}
+.mid{
+    display: block;
+    width: 48%;
+    margin: 20px auto;
+
+/* border: 2px solid green; */
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;    
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+    color: grey;
+    text-decoration: underline;
+    
+}
+.btn{
+    font-family: 'Pushster', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 3px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: grey;
+
+}
+.cointainer{
+    border: 2px solid white;
+    margin: 62px 40px;
+    padding: 60px 88px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 55%;
+    padding: 5px;
+    border-radius: 6px;
+    margin: 3px auto;
+    border: 2px solid black;
+}
+.cointainer h1{
+    color:blanchedalmond;
+    text-align: center;
+}
+.cointainer button{
+    display: block;
+    width: 23%;
+    margin: auto;
+
+}
